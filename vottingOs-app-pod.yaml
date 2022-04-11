@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: votingOs-app-pod
+  name: votingos-app-pod
   labels:
-    name: vottingOs-app
-    app: demo-votingOs-app
+    name: vottingos-app
+    app: demo-votingos-app
 spec:
   containers:
-    - name: vottingOs-app
+    - name: vottingos-app
       image: kodekloud/examplevotingapp_vote:v1
       ports:
         - containerPort: 80

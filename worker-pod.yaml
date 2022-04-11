@@ -4,7 +4,7 @@ metadata:
   name: worker-app-pod
   labels:
     name: worker-app
-    app: demo-votingOs-app
+    app: demo-votingos-app
 spec:
   containers:
     - name: worker-app

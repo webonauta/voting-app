@@ -3,12 +3,12 @@ kind: Service
 metadata:
   name: db
   labels:
-    name: postgres-Service
-    app: demo-votingOs-app
+    name: postgres-service
+    app: demo-votingos-app
 spec:
   ports:
     - port: 5432
       targetPort: 5432
   selector:
     name: postgres
-    app: demo-votingOs-app
+    app: demo-votingos-app

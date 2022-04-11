@@ -4,11 +4,11 @@ metadata:
   name: redis
   labels:
     name: redis-service
-    app: demo-votingOs-app
+    app: demo-votingos-app
 spec:
   ports:
     - port: 6379
       targetPort: 6379
   selector:
-    name: vottingOs-app
-    app: demo-votingOs-app
+    name: vottingos-app
+    app: demo-votingos-app
