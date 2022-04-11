@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: votingOs-service
   labels:
-    name: votingOs-Service
+    name: votingOs-service
     app: demo-votingOs-app
 spec:
   type: NodePort
