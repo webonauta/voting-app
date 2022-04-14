@@ -9,14 +9,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: result-app-deploy
+      name: result-app-pod
       app: demo-voting-app
   template:
     metadata:
       name: result-app-pod
       labels:
-        name: result-app
-        app: demo-votingos-app
+        name: result-app-pod
+        app: demo-voting-app
     spec:
       containers:
         - name: result-app
